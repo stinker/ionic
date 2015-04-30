@@ -1795,9 +1795,9 @@ IonicModule
   // Windows Phone
   // -------------------------
   setPlatformConfig('windowsphone', {
-    //scrolling: {
-    //  jsScrolling: false
-    //}
+    scrolling: {
+      jsScrolling: false
+    }
   });
 
 
@@ -8323,9 +8323,7 @@ IonicModule
         'ng-disabled': attr.ngDisabled,
         'ng-true-value': attr.ngTrueValue,
         'ng-false-value': attr.ngFalseValue,
-        'ng-change': attr.ngChange,
-        'ng-required': attr.ngRequired,
-        'required': attr.required
+        'ng-change': attr.ngChange
       }, function(value, name) {
         if (isDefined(value)) {
           input.attr(name, value);
@@ -11657,9 +11655,7 @@ IonicModule
           'ng-value': attr.ngValue,
           'ng-model': attr.ngModel,
           'ng-disabled': attr.ngDisabled,
-          'ng-change': attr.ngChange,
-          'ng-required': attr.ngRequired,
-          'required': attr.required
+          'ng-change': attr.ngChange
       }, function(value, name) {
         if (isDefined(value)) {
             input.attr(name, value);
@@ -12215,9 +12211,9 @@ IonicModule
  * - {@link ionic.directive:exposeAsideWhen}
  *
  * @usage
- * To use side menus, add an `<ion-side-menus>` parent element. This will encompass all pages that have a
- * side menu, and have at least 2 child elements: 1 `<ion-side-menu-content>` for the center content,
- * and one or more `<ion-side-menu>` directives for each side menu(left/right) that you wish to place.
+ * To use side menus, add an `<ion-side-menus>` parent element,
+ * an `<ion-side-menu-content>` for the center content,
+ * and one or more `<ion-side-menu>` directives.
  *
  * ```html
  * <ion-side-menus>
@@ -12232,10 +12228,6 @@ IonicModule
  *   <!-- Right menu -->
  *   <ion-side-menu side="right">
  *   </ion-side-menu>
- *
- *   <ion-side-menu-content>
- *   <!-- Main content, usually <ion-nav-view> -->
- *   </ion-side-menu-content>
  * </ion-side-menus>
  * ```
  * ```js
@@ -13150,9 +13142,7 @@ function($timeout, $ionicConfig) {
         'ng-disabled': attr.ngDisabled,
         'ng-true-value': attr.ngTrueValue,
         'ng-false-value': attr.ngFalseValue,
-        'ng-change': attr.ngChange,
-        'ng-required': attr.ngRequired,
-        'required': attr.required
+        'ng-change': attr.ngChange
       }, function(value, name) {
         if (isDefined(value)) {
           input.attr(name, value);

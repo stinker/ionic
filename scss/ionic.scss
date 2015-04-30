@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import  "ionic-custom-variables";
+
 @import
   // Ionicons
   "ionicons/ionicons.scss",
@@ -7,8 +9,6 @@
   // Variables
   "mixins",
   "variables",
-
-  "custom-variables",
 
   // Base
   "reset",
