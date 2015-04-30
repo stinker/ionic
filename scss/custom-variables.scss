@@ -1,0 +1,85 @@
+/**
+ * Override of default ionic variables
+ *
+ * See bower_components/ionic/release/scss/_variables.scss for all variables
+ *
+ * Note: we add !default to all variables so that they can be overridden later on if need be.
+ */
+
+
+// Colors
+// -------------------------------
+
+$light:                           #ffffff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #fbab18 !default;
+$assertive:                       #c70f3f !default;
+$royal:                           #886aea !default;
+$dark:                            #000000 !default;
+
+
+// Base
+// -------------------------------
+
+$font-family-sans-serif:          'Calibri', sans-serif !default;
+$font-size-base:                  18px !default;
+$font-size-large:                 22px !default;
+$font-size-small:                 16px !default;
+
+
+
+// Buttons
+// -------------------------------
+
+$button-block-margin:             0px !default;
+$button-border-radius:            10px !default;
+$button-icon-size:                24px !default;
+
+$button-font-size:                18px !default;
+$button-height:                   52px !default;
+$button-padding:                  12px !default;
+$button-icon-size:                24px !default;
+
+$button-large-font-size:          20px !default;
+$button-large-height:             56px !default;
+$button-large-padding:            12px !default;
+$button-large-icon-size:          24px !default;
+
+$button-small-font-size:          14px !default;
+$button-small-height:             32px !default;
+$button-small-padding:            6px !default;
+$button-small-icon-size:          18px !default;
+
+$button-bar-button-font-size:     18px !default;
+$button-bar-button-height:        52px !default;
+$button-bar-button-padding:       12px !default;
+$button-bar-button-icon-size:     24px !default;
+
+
+// Bars
+// -------------------------------
+
+$bar-height:                      54px !default;
+$bar-title-font-size:             22px !default;
+$bar-footer-height:               70px !default;
+
+
+// Popups
+// -------------------------------
+$popup-width:                     720px !default;
+$popup-border-radius:             10px !default;
+$popup-background-color:          #ffffff !default;
+$popup-button-border-radius:      8px !default;
+$popup-button-line-height:        30px !default;
+$popup-button-min-height:         55px !default;
+
+
+// Forms
+// -------------------------------
+
+$input-label-color:               #8d8d8d !default;
+$input-color:                     #000000 !default;
+
