@@ -2,7 +2,7 @@
  * Copyright 2014 Drifty Co.
  * http://drifty.com/
  *
- * Ionic, v1.0.0
+ * Ionic, vv1.0.0-zetbook
  * A powerful HTML5 mobile app framework.
  * http://ionicframework.com/
  *
